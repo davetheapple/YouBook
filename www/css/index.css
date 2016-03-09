@@ -5,8 +5,54 @@ body {
 
 [data-role=page]{height: 100% !important; position:relative !important;}
 [data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;}  
-[data-role=header] { height: 30px; padding:1em;}
+/*[data-role=header] { height: 30px; padding:1em;}*/
 
 .video {
 	width:100% !important;
+}
+
+#search {
+    text-align: center;
+}
+
+.ui-input-text {
+    width: 70%;
+}
+#search div {
+    display: inline-block;
+}
+
+.cover-image img {
+    width: 100%;
+}
+.cover-image {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin-right: 1em;
+    min-height:3em;
+}
+
+.wrap {
+    white-space: normal !important;
+    font-size:default !important;
+}
+
+.ui-listview>li h1, .ui-listview>li h2, .ui-listview>li h3, .ui-listview>li h4, .ui-listview>li h5, .ui-listview>li h6 {
+    font-size: 1em;
+    font-weight: 700;
+    display: block;
+    margin: .45em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal !important;
+}
+
+.ui-listview>li h1 { font-size: 2em !important; }
+.ui-listview>li h2, .ui-listview>li h3 { font-size: 1em !important; }
+.ui-listview>li h5 {font-size: .7em !important; }
+
+
+.book-content {
+    margin-bottom: 5em;
 }

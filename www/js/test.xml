@@ -1,0 +1,340 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:creativeCommons="http://blogs.law.harvard.edu/tech/creativeCommonsRssModule" version="2.0">
+
+<channel>
+
+<title><![CDATA[Food of the Gods, and How It Came to Earth (version 2), The by WELLS, H. G.]]></title>
+
+<link><![CDATA[http://librivox.org/the-food-of-the-gods-and-how-it-came-to-earth-version-2-by-h-g-wells/]]></link>
+
+<description><![CDATA[Mr. Bensington and Professor Redwood have invented a substance that causes living things to grow - and grow - and grow!  As their experiments progress, the substance quickly gets out of control and the fun begins as insects and plants receive the benefit of the Food of the Gods.  Surely nobody would dream of feeding such a thing to a human child… would they?
+
+In this little-known science fiction satire, Wells takes potshots at every member of society: scientists, ministers, charitable heiresses, revolutionaries, and everyone in between.  Yet in the end, Wells shows his faith both in humanity and its never-ceasing progress. - Summary by Catharine Eastman]]></description>
+
+<genre><!-- project element=Genre --></genre>
+
+<language><!-- project element=lang.code --></language>
+
+<itunes:author>LibriVox</itunes:author>
+
+<itunes:summary><![CDATA[Mr. Bensington and Professor Redwood have invented a substance that causes living things to grow - and grow - and grow!  As their experiments progress, the substance quickly gets out of control and the fun begins as insects and plants receive the benefit of the Food of the Gods.  Surely nobody would dream of feeding such a thing to a human child… would they?
+
+In this little-known science fiction satire, Wells takes potshots at every member of society: scientists, ministers, charitable heiresses, revolutionaries, and everyone in between.  Yet in the end, Wells shows his faith both in humanity and its never-ceasing progress. - Summary by Catharine Eastman]]></itunes:summary>
+
+
+<itunes:owner>
+  <itunes:name>LibriVox</itunes:name>
+  <itunes:email>info@librivox.org</itunes:email>
+</itunes:owner>
+
+
+<itunes:category text="Arts"><itunes:category text="Literature" /></itunes:category>
+
+
+<!-- file loop -->
+
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 1]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_01_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_01_wells_64kb.mp3" length="10.1" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_01_wells_64kb.mp3" fileSize="10.1" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 2, Sections 1-3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_02_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_02_wells_64kb.mp3" length="14.4" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_02_wells_64kb.mp3" fileSize="14.4" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 2, Sections 4-8]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_03_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_03_wells_64kb.mp3" length="16.7" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_03_wells_64kb.mp3" fileSize="16.7" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 3, Sections 1-3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_04_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_04_wells_64kb.mp3" length="12.9" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_04_wells_64kb.mp3" fileSize="12.9" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 3, Sections 4-5]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_05_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_05_wells_64kb.mp3" length="10.2" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_05_wells_64kb.mp3" fileSize="10.2" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 3, Sections 6-8]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_06_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_06_wells_64kb.mp3" length="10.1" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_06_wells_64kb.mp3" fileSize="10.1" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 4, Sections 1-3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_07_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_07_wells_64kb.mp3" length="14.1" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_07_wells_64kb.mp3" fileSize="14.1" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 4, Sections 4-6]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_08_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_08_wells_64kb.mp3" length="13.9" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_08_wells_64kb.mp3" fileSize="13.9" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 1, Chapter 5]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_09_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_09_wells_64kb.mp3" length="11.2" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_09_wells_64kb.mp3" fileSize="11.2" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 2, Chapter 1, Sections 1-3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_10_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_10_wells_64kb.mp3" length="7.8" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_10_wells_64kb.mp3" fileSize="7.8" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 2, Chapter 1, Sections 4-7]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_11_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_11_wells_64kb.mp3" length="11.5" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_11_wells_64kb.mp3" fileSize="11.5" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 2, Chapter 2]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_12_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_12_wells_64kb.mp3" length="16.2" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_12_wells_64kb.mp3" fileSize="16.2" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 1, Sections 1-2]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_13_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_13_wells_64kb.mp3" length="11.4" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_13_wells_64kb.mp3" fileSize="11.4" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 1, Sections 3-5]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_14_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_14_wells_64kb.mp3" length="12.1" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_14_wells_64kb.mp3" fileSize="12.1" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 2, Sections 1-2]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_15_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_15_wells_64kb.mp3" length="8.3" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_15_wells_64kb.mp3" fileSize="8.3" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 2, Sections 3-5]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_16_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_16_wells_64kb.mp3" length="8.9" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_16_wells_64kb.mp3" fileSize="8.9" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_17_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_17_wells_64kb.mp3" length="13.0" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_17_wells_64kb.mp3" fileSize="13.0" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 4, Sections 1-3]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_18_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_18_wells_64kb.mp3" length="11.6" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_18_wells_64kb.mp3" fileSize="11.6" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 4, Section 4]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_19_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_19_wells_64kb.mp3" length="7.3" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_19_wells_64kb.mp3" fileSize="7.3" type="audio/mpeg" />
+</item>
+
+
+<item>
+
+<title><![CDATA[Book 3, Chapter 5]]></title>
+<reader><!-- file element=reader --></reader>
+<link><![CDATA[http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_20_wells_64kb.mp3]]></link>
+<enclosure url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_20_wells_64kb.mp3" length="15.4" type="audio/mpeg" />
+
+<itunes:explicit>No</itunes:explicit>
+<itunes:block>No</itunes:block>
+<itunes:duration><![CDATA[]]></itunes:duration>
+<pubDate><!-- file element=rss.pubDate --></pubDate>
+<media:content url="http://www.archive.org/download/food_gods_1603_librivox/foodofthegods_20_wells_64kb.mp3" fileSize="15.4" type="audio/mpeg" />
+</item>
+
+<!-- end file loop -->
+
+</channel>
+
+</rss>

@@ -1,134 +1,82 @@
-
-var API_KEY = "AIzaSyA_GJoRzPL1RrR7YCxzXTKFCYgVVSCXJKk";
-var clientLoaded = false;
-
-function ytClientLoadCallback() {
-	console.log("hello");
-	gapi.client.setApiKey(API_KEY);
-	gapi.client.load('youtube', 'v3', function() {
-		
-    	setTimeout(function(){
-    		
-            $.mobile.loading('hide');
-        },1);  
-	});
-	
-}
-
-function gather(genre) {
-	
-	  var q = genre+" audio books";//$('#query').val();
-	  var request = gapi.client.youtube.search.list({
-	    q: q,
-	    part: 'snippet',
-	    maxResults: 10
-	  });
-	
-	  request.execute(function(response) {
-	  	console.debug(response);
-	    //var str = JSON.stringify(response.result);
-	    $.each(response.items, function(idx, itm){
-		    process(itm);
-	    });
-	    setTimeout(function(){
-            $.mobile.loading('hide');
-        },1);
-	    //var chName = response.items[0].id.playlistId;
-	    //var list = requestVideoPlaylist(chName);
-	    //$('.container').html('<iframe src="https://www.youtube.com/embed/videoseries?list='+chName+'" width="480" height="400"></iframe>');
-	  });
-	
-}
-
-
-function process(item) {
-	if(typeof item.id != undefined) {
-		switch(item.id.kind) {
-			case "youtube#playlist":
-				console.log("playlist");
-				var pid = item.id.playlistId;
-				requestVideoPlaylist(pid);
-				
-				break;
-			case "youtube#video":
-				console.log("video");
-				var vid = item.id.videoId;
-				var title = item.snippet.title.split(" by ");
-				var author = title[1] == undefined ? "" : title[1];
-				title = title[0];
-				 
-			    display({id: vid, title: title, author: author});
-			    
-				break;
-		}
-	}
-	
-}
-
-function display(options) {
-	if(options.title.trim() != "Deleted video" && options.title.trim() != "Private video") {
-		$("#resultlistdata").append($(
-										'<li class="video-item">'+
-											'<img src="http://img.youtube.com/vi/'+options.id+'/default.jpg">'+
-											'<h3 data-yt-id="'+options.id+'">'+options.title+'</h3>'+
-											'<h5>'+options.author+'</h5></li>'+
-
-	 										'<iframe class="video" id="video_'+options.id+'" style="display:none;" src="https://www.youtube.com/embed/'+options.id+'" height="100" seamless></iframe>'+
-	 									'</li>'
- 									));
-
-		$('#resultlistdata').listview().listview('refresh');
-	}
-}
-
-
-// Retrieve the list of videos in the specified playlist.
-function requestVideoPlaylist(playlistId) {
-  
-  var requestOptions = {
-    playlistId: playlistId,
-    part: 'snippet',
-    maxResults: 10
-  };
-
-  var request = gapi.client.youtube.playlistItems.list(requestOptions);
-  request.execute(function(response) {
-    
-	console.debug(response);
-	var list = response.result.items;
-	$.each(list, function(index, itm) {
-		//process(itm);
-		console.debug(itm);
-		var title = itm.snippet.title.split(" by ");
-		var author = title[1] == undefined ? "" : title[1];
-		title = title[0];
-		var id = itm.snippet.resourceId.videoId;
-		
-		display({id: id, title: title, author: author});
-	});
-  });
-}
-
 $(document).ready(function() {
 	
-	setTimeout(function(){
-		
-        $.mobile.loading('show');
-    },1); 
+	var baseUrl = "https://librivox.org/api/feed/audiobooks/";
+	var d = new Date();
+	var newest = Math.floor(d.setDate(d.getDate()-7) / 1000); 
+	console.log((new Date(newest*1000)).toDateString());
 	
-	$("#mainpage li").on("click", function() {
-		$("#resultlistdata").html('');
-		setTimeout(function(){
-	        $.mobile.loading('show');
-	    },1); 
-		gather($(this).text());
+	$.get(baseUrl + "?since=" + newest + "&format=json", function(response) {
+		console.debug(response);
+		var list = $("#newest");
 		
+		$.each(response.books, function(i, book){
+			var item = $("<li></li>");
+			var authors = "";
+			var bookMp3s = [];
+			/*
+			$.get("js/test.xml", function(xml) {//book.url_rss, function(res) {
+				
+				var mp3s = $(xml).find("item"); //$($(xml).find("item").last().html()).last().attr("url") );
+				$.each(mp3s, function(i2, mp3){
+					console.debug( $( $(mp3).children("media\\:content") ).attr("url") );//$($(xml).find("item").last().html()).last().attr("url") );
+					var url = $( $(mp3).children("media\\:content") ).attr("url")
+					bookMp3s.push($('<audio controls><source src="'+url+'" type="audio/mpeg"></audio>'));
+				});
+			});*/
+			
+			
+			$.each(book.authors, function(i, a){ authors += a.first_name + " " + a.last_name + (i == book.authors.length-1 ? "" : ", ") });
+			
+			var stripTitle = book.title.replace(/\(.*?\)/, "").trim();
+			stripTitle = encodeURI(stripTitle);
+			console.log(stripTitle);
+			var img = $("<img>");
+			img.attr("src", "img/default-book.png");
+			
+			item.append(img);
+			item.append($("<a href='#listviewdata' data-rss='"+book.url_rss+"' class='list-opt'><h3 class='.wrap'>"+book.title+"</h3></a>"));
+			item.append($("<h5 class='.wrap'>"+authors+"</h5>"));
+			//item.children("*").wrap("<a href='#listviewdata' data-rss='"+book.url_rss+"' class='list-opt'></a>");
+			list.append(item);
+			
+		});
+		
+		list.listview().listview("refresh");
 	});
 	
-	$(document).on("click", ".video-item", function() {
-		$(".video").hide();
-		$(this).next(".video").slideDown();
-	});
+	function showDetailView(obj) {
+		
+		//console.debug($(obj).find(".list-opt").data("rss"));
+		var bookMp3s = new Array();
+		$.get($(obj).find(".list-opt").data("rss"), function(xml) {//book.url_rss, function(res) {
+				
+			var mp3s = $(xml).find("item"); //$($(xml).find("item").last().html()).last().attr("url") );
+			$.each(mp3s, function(i2, mp3){
+				console.debug( $( $(mp3).children("media\\:content") ).attr("url") );//$($(xml).find("item").last().html()).last().attr("url") );
+				var url = $( $(mp3).children("media\\:content") ).attr("url");
+				bookMp3s.push("<audio controls><source src='"+url+"' type='audio/mpeg'></audio>");
+			});
+		
+		console.debug(bookMp3s);
+			var content = $('<div class="book-content"></div>');
+			$("#result-data").html('');
+		    content.append($(obj).clone());
+		    $.each(bookMp3s, function(i3, bmp3) {
+		    	console.debug(bmp3);
+		    	content.append(bmp3);
+		    });
+		    $("#result-data").append(content);
+		    $.mobile.navigate("#resultlist");
+		    //list.listview().listview("refresh");
+		    });
+	}
 	
+	$(document).bind( "pagebeforechange", function( e, data ) {
+		if(data.options.link != undefined)
+			if($(data.options.link.context).attr("class").indexOf("list-opt") > -1) 
+				showDetailView($(data.options.link).parent());
+	})
 
+	
+	
 });

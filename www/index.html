@@ -42,14 +42,18 @@
             <div class="my-container">
             
             	<div data-role="page" id="mainpage">
-	            	<div data-role="header"></div>
+	            	<div data-role="header">
+		            	<form id="search">
+			            	<input type="text" name="search-field">
+			            	<button class="ui-btn ui-btn-inline"><div data-icon="search">Search</div></button>
+		            	</form>
+	            	</div>
 	            	<div data-role="content">
-			            <ul data-role="listview">
-				            <li><a href="#resultlist" data-transition="slide">Fantasy</a></li>
-				            <li><a href="#resultlist" data-transition="slide">Science Fiction</a></li>
-				            <li><a href="#resultlist" data-transition="slide">Drama</a></li>
-				            <li><a href="#resultlist" data-transition="slide">Romance</a></li>
-				            <li><a href="#resultlist" data-transition="slide">Western</a></li>
+			            
+			            
+			            <ul data-role="listview" id="newest">
+				            
+				            
 			            </ul>
 			            
 	            	</div>
@@ -57,10 +61,8 @@
             	
             	<div data-role="page" id="resultlist">
 	            	<div data-role="header"><a href="#mainpage" data-transition="slide">Back</a></div>
-	            	<div data-role="content">
-			            <ul data-role="listview" id="resultlistdata">
-				            
-			            </ul>
+	            	<div data-role="content" id="result-data">
+			            
 	            	</div>
 		            <div data-role="footer"></div>
             	</div><!-- result page -->
@@ -73,7 +75,6 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-        <script src="https://apis.google.com/js/client.js?onload=ytClientLoadCallback"></script>
         
         
     </body>
